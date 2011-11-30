@@ -10,7 +10,7 @@
 package org.fusesource.fabric.groups
 
 import org.scalatest.matchers.ShouldMatchers
-import org.apache.zookeeper.server.{ZooKeeperServer, NIOServerCnxn, NIOServerCnxnFactory}
+import org.apache.zookeeper.server.{ZooKeeperServer, NIOServerCnxnFactory}
 import org.apache.zookeeper.server.persistence.FileTxnSnapLog
 import org.linkedin.zookeeper.client.ZKClient
 import org.linkedin.util.clock.Timespan
